@@ -1,3 +1,15 @@
 <?php
+use app\core\Router;
+use app\support\RequestType;
 
-echo "<h1>HELO WORD</h1>";
+require '../vendor/autoload.php';
+
+session_start();
+
+// dd($_SERVER);
+
+dd(RequestType::get());
+
+// dd( trim( parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH )) );
+
+Router::run();

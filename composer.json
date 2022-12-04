@@ -1,0 +1,20 @@
+{
+    "name": "admin/php-oo",
+    "authors": [
+        {
+            "name": "tadiotc",
+            "email": "tadiotc@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\":"app"
+        },
+        "files": [
+            
+        ]
+
+
+    }
+}
